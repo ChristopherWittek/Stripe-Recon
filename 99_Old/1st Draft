@@ -1,0 +1,7 @@
+# Step 1 - create main data frame from Statement
+import pandas as pd
+stripe_statement = pd.read_csv('Stripe_Statement.csv')
+#           -> Add customer name from Orders
+#           -> Add Currency, FX Amount, EUR Amount from Payments
+
+# Step 2 - Add calculations and conditions (S - X)
